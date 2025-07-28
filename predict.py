@@ -1,6 +1,4 @@
-# 在test_Qwen5的基础上，修改点提示的生成, 比如一个目标可能有多个点，需要使用2，3，4，5，而不全是1
-# SAM2接受的labels是[1,1,1,1]的，不能是[2,3]
-# 修改了提示词模板，千问结果处理，合并函数。
+
 import json
 import torch
 from torch_mlu.utils.model_transfer import transfer
